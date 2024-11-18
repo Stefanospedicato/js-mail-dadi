@@ -6,14 +6,14 @@ Stabilire il vincitore, in base a chi fa il punteggio più alto.
 
 let randomNumberGiocatore = Math.ceil(Math.random()*6)
 let randomNumberComputer = Math.ceil(Math.random()*6)
-let numGiocatore = confirm(`'Il tuo numero è: '${randomNumberGiocatore}''`);
-let numComputer = confirm(`'Il numero del computer è: '${randomNumberComputer}''`);
+let numGiocatore = alert(`'Il tuo numero è: '${randomNumberGiocatore}''`);
+let numComputer = alert(`'Il numero del computer è: '${randomNumberComputer}''`);
 
   if(randomNumberComputer > randomNumberGiocatore){
-    confirm('Che Sfiga! Hai perso.')
+    alert('Che Sfiga! Hai perso.')
   } else if (randomNumberGiocatore > randomNumberComputer){
-    confirm('Complimenti! Ha vinto il tuo numero perchè è più alto!')
+    alert('Complimenti! Ha vinto il tuo numero perchè è più alto!')
   } else{
-    confirm('Pareggio!')}
+    alert('Pareggio!')}
 console.log(randomNumberComputer)
 console.log(randomNumberGiocatore)

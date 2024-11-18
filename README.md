@@ -19,5 +19,5 @@ Stabilire il vincitore, in base a chi fa il punteggio più alto.
 - qui ho cambiato più volte la via perchè ho avuto difficoltà con i numeri random.
 - Avevo iniziato creando un ciclo unico per i numeri random, ma ho notato che mi dava poi sempre lo stesso numero ad entrambi i giocatori. Ho cambiato pensiero (sicuramente una strada c'era, ma mi è sembrato più semplice così)
 - Ho creato due variabili let distinte per i numeri dei giocatori, dove veniva estratto un numero  casuale da 1 a 6 per ciascun giocatore.
-- Queste variabili le utilizzate per le finestre 'confirm' dei giocatori.
+- Queste variabili le utilizzate per le finestre 'alert' dei giocatori.
 - Ho utilizzato If, else if e else per i tre casi di decisione del vincitore (pareggio incluso).
