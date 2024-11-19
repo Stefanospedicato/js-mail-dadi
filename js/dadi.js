@@ -10,7 +10,7 @@ let numGiocatore = alert(`'Il tuo numero è: '${randomNumberGiocatore}''`);
 let numComputer = alert(`'Il numero del computer è: '${randomNumberComputer}''`);
 
   if(randomNumberComputer > randomNumberGiocatore){
-    alert('Che Sfiga! Hai perso.')
+    alert('Che Sfortuna! Hai perso.')
   } else if (randomNumberGiocatore > randomNumberComputer){
     alert('Complimenti! Ha vinto il tuo numero perchè è più alto!')
   } else{
