@@ -6,8 +6,8 @@ Stabilire il vincitore, in base a chi fa il punteggio più alto.
 
 let randomNumberGiocatore = Math.ceil(Math.random()*6)
 let randomNumberComputer = Math.ceil(Math.random()*6)
-let numGiocatore = alert(`'Il tuo numero è: '${randomNumberGiocatore}''`);
-let numComputer = alert(`'Il numero del computer è: '${randomNumberComputer}''`);
+let numGiocatore = alert(`Il tuo numero è: ${randomNumberGiocatore}`);
+let numComputer = alert(`Il numero del computer è: ${randomNumberComputer}`);
 
   if(randomNumberComputer > randomNumberGiocatore){
     alert('Che Sfortuna! Hai perso.')

@@ -15,3 +15,17 @@ for(let i=0 ; i < lista.length ; i++){
   }
 }
 console.log(message)
+
+
+/*
+oppure
+
+if(lista.includes(email)){
+message='Puoi entrare'
+} else {
+message='Non puoi entrare'
+}
+
+console.log(message)
+
+*/
